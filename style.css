@@ -12,8 +12,9 @@ header {
     justify-content: space-between;
     align-content: center;
     align-items: center;
-    background-color: lightgrey;
+    background-color: #1f2937;
     padding: 0px 15%;
+    color: #f9faf8;
 
 }
 
@@ -21,7 +22,7 @@ header {
     display: flex;
     align-content: center;
     justify-content: center;
-    list-style: none; 
+    list-style: none;   
 }
 
 .nav_links li {
@@ -30,12 +31,12 @@ header {
 
 a:link {
     text-decoration: none;
-    color: black;
+    color: #f9faf8;
 }
 
 .hero-section {
-    background-color: lightgrey;
-    padding: 40px 15%;
+    background-color: #1f2937;
+    padding: 80px 15% 80px 15%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -43,6 +44,9 @@ a:link {
 
 div.hero-left h1 {
     margin: 0;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: extra-bold;
 }
 
 .hero-left {
@@ -51,6 +55,8 @@ div.hero-left h1 {
 
 .hero-text {
     margin-bottom: 15px;
+    color: #f9faf8;
+    font-size: 18px;
 }
 
 .hero-button {
@@ -72,7 +78,7 @@ div.hero-left h1 {
 }
 
 .item-section {
-    padding: 0px 15%;
+    padding: 50px 15%;
 }
 
 .item-container {
@@ -90,4 +96,74 @@ div.hero-left h1 {
     padding: 20px 40px;
     max-width: 200px;
     text-align: center;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 15%;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-style:italic;
+    font-weight: normal;
+}
+
+.container-author {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.cta-section {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 15%;
+}
+
+.cta-section h3, p{
+    margin: 0px;
+}
+
+.cta-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffaa00;
+    padding: 25px;
+    color: white;
+    border-radius: 25px;
+}
+
+.cta-text {
+    margin: 25px 60px 25px 0px;
+}
+
+.cta-button {
+    background-color: #ffaa00;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.cta-button:hover {
+    background-color:#ffffff;
+    color: #ffaa00;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 25px;
+    color: white;
 }
